@@ -139,27 +139,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* -------start address----- */
 
-
-
-
-.address a {
-  display: inline-flex;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-
-  color:var(--secondary-color);
-  
-  font-family:var(--font-text);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-
+/* 
 .phone::before{
   content:"";
   width: 10px;
@@ -179,18 +159,50 @@ h1,h2,h3,h4,h5,h6,p{
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+} */
+
+.address a{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color:var(--secondary-color);
+  font-family:var(--font-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
+.mail{ 
+  width: 16px;
+  height:12px;
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.phone{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;       
+  fill:#757575
+}
 
 .address a:hover,
 .address a:focus{
  color:var(--accent-color);
 }
 
+.phone:hover,
+.phone:focus{
+  fill:var(--accent-color)
+}
 
-
-.address a:hover::after{
- display: block;
+.mail:hover,
+.mail:focus{
+  fill: var(--accent-color);
 }
 
 
@@ -200,7 +212,14 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .address {
   display: flex;
+  justify-content: center;
 }
+
+.address > .link{
+display: flex;
+align-items: center;
+}
+
 
 .address > .link + .link{
   margin-left: 50px;
