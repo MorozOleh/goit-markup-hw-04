@@ -143,7 +143,8 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 .address a {
-  display: block;
+  display: inline-flex;
+  align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
 
@@ -160,16 +161,26 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 .phone::before{
-  display: inline-block;
   content:"";
   width: 10px;
   height: 15px;
-
   margin-right: 10px;
-  background-image: url(../css/images/phone-icon.png);
+  background-image: url(../css/images/icon-phone.svg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
+
+.mail::before{
+  content:"";
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url(../css/images/icon-mail.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 
 .address a:hover,
 .address a:focus{
@@ -446,6 +457,9 @@ background-image: url(../css/images/clock1.svg);
   display: flex;
 }
 
+.do-work a{
+  text-decoration:none;
+}
 
 .we-work .list{
   width: 370px;
@@ -530,14 +544,40 @@ background-image: url(../css/images/clock1.svg);
 }
 
 .teams .social{
+  display: flex;
+  justify-content: space-around;
   margin-top: 16px;
   padding-bottom:24px ;
-  margin-left: 15px;
+  margin-right: 32px;
+  margin-left: 32px;
 }
 
-.icons{
-  text-decoration: none;
-  color: var(--secondary-color);
+
+.icon{
+  display: block;
+  width: 44px;
+  height: 44px;
+  content: "";
+  background-repeat: no-repeat;
+  
+  background-position: 50% 50%;
+
+}
+
+.icon.instagram{
+  background-image: url(../css/images/icon-instagram.svg);
+}
+
+.icon.twitter{
+  background-image: url(../css/images/icon-twiter.svg);
+}
+
+.icon.facebook{
+background-image: url(../css/images/icon-facebook.svg);
+}
+
+.icon.linkedin{
+  background-image: url(../css/images/icon-linkedin.svg);
 }
 
 .icons:hover,
