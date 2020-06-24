@@ -297,25 +297,24 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-.antenna::before{
-  display: block;
+.picture:before{
+ display: block;
   content: "";
   width: 270px;
   height: 120px;
-  background-image: url(../css/images/antenna1.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom:30px ;
+
 }
 
-.clock::before{
+/* .clock::before{
   display: block;
   content: "";
   width: 270px;
   height: 120px;
-  background-image: url(../css/images/clock1.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
@@ -328,7 +327,6 @@ h1,h2,h3,h4,h5,h6,p{
   content: "";
   width: 270px;
   height: 120px;
-  background-image: url(../css/images/diagram1.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
@@ -341,12 +339,27 @@ h1,h2,h3,h4,h5,h6,p{
   content: "";
   width: 270px;
   height: 120px;
-  background-image: url(../css/images/astronaut1.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom:30px ;
+} */
+
+.picture:nth-child(1)::before{
+  background-image: url(../css/images/antenna1.svg);
+}
+
+.picture:nth-child(2)::before{
+background-image: url(../css/images/clock1.svg);
+}
+
+.picture:nth-child(3):before{
+ background-image: url(../css/images/diagram1.svg);
+}
+
+.picture:nth-child(4):before{
+  background-image: url(../css/images/astronaut1.svg);
 }
 
 
