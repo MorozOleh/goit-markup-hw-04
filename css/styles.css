@@ -842,6 +842,55 @@ background-image: url(../css/images/icon-facebook.svg);
   color: #FFFFFF;
   
 }
+
+.footer-links{
+  display: flex;
+}
+
+.icon-footer{
+  display: block;
+  content: "" ;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+}
+
+
+
+.icon-footer.instagram{
+background-image: url(../css/images/icon-instagram.svg);
+}
+
+.icon-footer.twitter{
+  background-image: url(../css/images/icon-twiter.svg);
+}
+
+.icon-footer.facebook{
+ background-image: url(../css/images/icon-facebook.svg); 
+}
+
+.icon-footer.linkedin{
+  background-image: url(../css/images/icon-linkedin.svg);
+  
+}
+
+.footer-links .list{
+  margin-right: 10px;
+}
+
+.footer-links .list:last-child{
+  margin-right: 0;
+}
+
+
+
+
+
+
+
 /* ------------------------------------- */
 
 
