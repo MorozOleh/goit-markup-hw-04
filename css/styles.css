@@ -798,6 +798,14 @@ fill:var(--accent-color);}
   padding-top: 50px;
   padding-bottom: 94px;
 }
+.style-card{
+  padding-top: 20px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  
+}
+
 
 .flex-style a{
   display: block;
@@ -809,9 +817,9 @@ fill:var(--accent-color);}
   flex-wrap: wrap;
 }
 
-.card{
+/* .card{
   margin-bottom: 20px;
-}
+} */
 
  .name-post{
   margin-bottom: 4px; 
@@ -822,6 +830,7 @@ fill:var(--accent-color);}
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  margin-left: 20px;
  }
 
  .post-about{
@@ -833,6 +842,7 @@ fill:var(--accent-color);}
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin-left: 20px;
  }
 
  /* .kryak{
