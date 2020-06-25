@@ -176,14 +176,14 @@ h1,h2,h3,h4,h5,h6,p{
   text-decoration: none;
 }
 
-.mail{ 
+.icon-mail{ 
   width: 16px;
   height:12px;
   margin-right: 10px;
-  fill: currentColor;
+  fill:currentColor;
 }
 
-.phone{
+.icon-phone{
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -394,7 +394,7 @@ align-items: center;
 } */
 
 
-.social .link{
+.social a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -409,21 +409,51 @@ align-items: center;
 .linkedin {
   width: 20px;
   height: 20px;
-  --color3:#afb1b8;
+  fill:#afb1b8;
 }
 
-
-
-.social .link:hover{
+.social a:hover,
+.social a:focus{
   background-color: var(--accent-color);
+  }
+
+.social a:hover svg,
+.social a:focus svg{
+fill:var(--primary-white-color);
 }
 
-  .instagram:hover,
-  .twitter:hover,
+
+
+
+
+  /* .social svg:hover{
+ 
+  fill:var(--primary-white-color);
+} */
+
+ /* .twitter:hover,
   .facebook:hover,
-  .linkedin:hover{
-  --color3:var(--primary-white-color);
+  .linkedin:hover{ */
+
+
+
+/* .address a:hover,
+.address a:focus{
+ color:var(--accent-color);
 }
+
+.phone:hover,
+.phone:focus{
+  fill:var(--accent-color)
+}
+
+.mail:hover,
+.mail:focus{
+  fill: var(--accent-color);
+}
+
+ */
+
 
 
 
@@ -686,25 +716,16 @@ background-image: url(../css/images/icon-facebook.svg);
 }
  
 .regular-custumers:hover,
-.regular-custumers:focus{
-  border-color: var(--accent-color);
+.regular-custumers:focus,
+  .client:hover{
+  border-color: var(--accent-color)
 }
 
-.clientfirst,
-.clientsecond,
-.clientthird,
-.clientfourth,
-.clientfifth,
-.clientsixth{
+.client{
   --color3:#afb1b8;
 }
 
-.clientfirst:hover,
-.clientsecond:hover,
-.clientthird:hover,
-.clientfourth:hover,
-.clientfifth:hover,
-.clientsixth:hover{
+.client:hover{
 --color3:var(--accent-color);}  
 
 
