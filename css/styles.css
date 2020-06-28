@@ -560,6 +560,7 @@ fill:var(--primary-white-color);
 
 
 /* start portfolio.html */
+/* -----two section portfolio   */
 /* page-portfolio */
 
 .off{
@@ -655,31 +656,6 @@ fill:var(--primary-white-color);
   flex-wrap: wrap;
 }
 
-/* .card{
-  margin-bottom: 20px;
-} */
-
-
-
- /* .kryak{
-  background: rgba(33, 150, 243, 0.9);;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
-  color: #FFFFFF;
- } */
-
-
-/* -----two section portfolio   */
-
-
-
-
-/* -----calc((100%-(30*(n-1)))/n)*/
-
 .flex-style .list{
   width:calc((100% - 60px)/3);
   margin-top: 30px;
@@ -698,6 +674,19 @@ fill:var(--primary-white-color);
 .flex-style .list:nth-child(-n + 3){
   margin-top: 0px;
 }
+
+
+ /* .kryak{
+  background: rgba(33, 150, 243, 0.9);;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+ } */
+
 
 
 
@@ -727,8 +716,6 @@ fill:var(--primary-white-color);
 .column.two{
   margin-left: 69px;
 }
-
-
 
 .address-street{
   font-family: var(--font-text);
@@ -828,16 +815,6 @@ background-image: url(../css/images/icon-instagram.svg);
   background-image: url(../css/images/icon-linkedin.svg);
   
 } */
-
-
-
-
-
-
-
-
-
-/* ------------------------------------- */
 
 
 
