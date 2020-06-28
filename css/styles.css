@@ -261,12 +261,10 @@ align-items: center;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgba(47, 48, 58, 0.8);;
   background-image: linear-gradient( rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
   url(../css/images/hero-background.jpg);
-
-
 }
-
 
 .hero > .title { 
   width: 696px;
@@ -279,7 +277,6 @@ align-items: center;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
 
 .hero .button {
   display: inline-block;
@@ -304,21 +301,15 @@ align-items: center;
 }
 
 
-
-
-
-
-
 /* section how it work */
 
 .container.it-work{
   padding-top: 94px;
-
+  font-family: var(--font-text);
 }
 
 .it-work > .title{
   display: none;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -326,11 +317,10 @@ align-items: center;
   text-align: center;
   letter-spacing: 0.03em; 
   color: var(--primary-text-color);
- 
-}
+ }
 
 .style{
-  display: flex;
+  display: inline-flex;
   justify-content:center;
   align-items: center;
   width: 270px;
@@ -349,10 +339,7 @@ align-items: center;
   height: 70px;
 }
 
-
-
 .it-work .subtitle{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -366,7 +353,6 @@ align-items: center;
 
 
 .it-work .how-work{
-  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -377,10 +363,8 @@ align-items: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
 .it-work .flex{
-  display: flex;
-  
+  display: flex; 
 }
 
 .flex .list{
