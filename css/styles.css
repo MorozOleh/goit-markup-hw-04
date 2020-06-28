@@ -98,9 +98,7 @@ h1,h2,h3,h4,h5,h6,p{
   display: block;
   padding-top: 30px;
   padding-bottom: 30px;
-
   color:var(--main-color);
-
   font-family:var(--font-text);
   font-size: 14px;
   font-weight: 500;
@@ -529,27 +527,23 @@ fill:var(--primary-white-color);
   width: 170px;
   height: 90px;
 }
- 
-.regular-custumers:hover,
-.regular-custumers:focus{
-  border-color: var(--accent-color)
+ .client{
+  fill:#afb1b8;
 }
 
-.client{
-  fill:#afb1b8;
+.regular-custumers:hover,
+.regular-custumers:focus{
+  border-color: var(--accent-color);
+  
 }
 
 .regular-custumers:hover .client,
 .regular-custumers:focus .client{
-fill:var(--accent-color);}  
-
+ fill:var(--accent-color);}  
 
 .custumers-title{
   margin-bottom: 50px;
 }
-
-
-
 
 .clients .list{
   margin-right: 30px;
@@ -559,15 +553,7 @@ fill:var(--accent-color);}
   margin-right: 0;
 }
 
-
 /* -------------------------- */
-
-
-
-
-
-
-
 
 
 
