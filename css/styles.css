@@ -534,7 +534,6 @@ fill:var(--primary-white-color);
 .regular-custumers:hover,
 .regular-custumers:focus{
   border-color: var(--accent-color);
-  
 }
 
 .regular-custumers:hover .client,
@@ -561,7 +560,7 @@ fill:var(--primary-white-color);
 
 
 /* start portfolio.html */
-/* portfolio */
+/* page-portfolio */
 
 .off{
   display: none;
@@ -573,14 +572,14 @@ fill:var(--primary-white-color);
 }
 
 .container.bottons{
+  font-family: Roboto;
+  font-style: normal;
   padding-top: 93px;
 }
 
 .button-radio{
   background: #f5f4fa;
   color: var(--primary-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -592,7 +591,6 @@ fill:var(--primary-white-color);
   padding-bottom: 6px;
   border-radius: 4px;
   border-color: transparent;
-
 }
 
 .flex-button .list{
@@ -610,19 +608,40 @@ fill:var(--primary-white-color);
 }
 
 
-
 /* ----------portfolio------------- */
 
 .container.portfolio{
+  font-family: Roboto;
+  font-style: normal;
   padding-top: 50px;
   padding-bottom: 94px;
 }
+
+ .name-post{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+  margin-left: 20px;
+  margin-bottom: 4px;
+ }
+
+ .post-about{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+  margin-left: 20px;
+  padding-bottom: 20px;
+ }
+
 .style-card{
   padding-top: 20px;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  
+  border-left: 1px solid #eeeeee;  
 }
 
 
@@ -640,29 +659,7 @@ fill:var(--primary-white-color);
   margin-bottom: 20px;
 } */
 
- .name-post{
-  margin-bottom: 4px; 
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-text-color);
-  margin-left: 20px;
- }
 
- .post-about{
-   padding-bottom: 20px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--secondary-color);
-  margin-left: 20px;
- }
 
  /* .kryak{
   background: rgba(33, 150, 243, 0.9);;
