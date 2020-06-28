@@ -226,29 +226,8 @@ align-items: center;
 /* ------finish address------------- */
 
 
-
-
-
-
-
-
-
-
 /* main section */
 /* banner */
-
-
-
-
-
-/* .banner{
-  background: blueviolet;
-  width: 1600px;
-  height: 600px;
-  margin-right: auto;
-  margin-left: auto;
-
-} */
 
 .hero{
   text-align: center;
@@ -256,7 +235,6 @@ align-items: center;
   letter-spacing: 0.06em;
   font-style: normal;
   color:var(--primary-white-color);
-
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -521,15 +499,14 @@ fill:var(--primary-white-color);
 }
 
 /* постійні клієнти */
-
 .container.custumers{
+  font-family: var(--font-text);
+  font-style: normal;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .custumers > .title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -537,6 +514,10 @@ fill:var(--primary-white-color);
   letter-spacing: 0.03em; 
   color: var(--primary-text-color);
   margin-bottom: 50px;
+}
+
+.clients{
+  display: flex;
 }
 
 .regular-custumers{
@@ -568,9 +549,7 @@ fill:var(--accent-color);}
 }
 
 
-.clients{
-  display: flex;
-}
+
 
 .clients .list{
   margin-right: 30px;
