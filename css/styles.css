@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6,p{
   margin-left: auto;
 }
 
-/* div/ container */
+/* -------------------------------------------------------div/ container -----------------------------------------------------------*/
 
 .container {
   width: 1200px;
@@ -58,14 +58,14 @@ h1,h2,h3,h4,h5,h6,p{
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-
 }
-/* ------end / container */
+/* ----------------------------------------------------end / container -------------------------------------------------------------*/
 
 
-/* ----------------------site-navigator-------------------- */
+/* -----------------------------------------------------site-navigator------------------------------------------------------------- */
 
-/* --------------logo--------- */
+/* ---------------------------------------------------------logo------------------------------------------------------------------- */
+
 .logo {
   text-decoration:none ;
   color:var(--title-text-color);
@@ -85,11 +85,19 @@ h1,h2,h3,h4,h5,h6,p{
   color:var(--primary-white-color);
 }
 
-/* ------------------end logo------------------ */
+/* ----------------------------------------------------------end logo-------------------------------------------------------------- */
 
 
 
-/* -----start   main navigation------------------------ */
+/* ---------------------------------------------------start   main navigation------------------------------------------------------ */
+
+.container > .flex-nav{
+  display: flex;
+  align-items: center;
+}
+
+
+
 .site-nav .link.current{
   color:var(--accent-color);
 }
@@ -112,19 +120,7 @@ h1,h2,h3,h4,h5,h6,p{
   color:var(--accent-color);
 }
 
-/* ---- навігатор-флекс */
-
-
-
-.container > .flex-nav{
-  display: flex;
-  align-items: center;
-}
-
-.container-address{
-  display: flex;
-}
-/* -------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------- */
 
 .site-nav{
   display: flex;
@@ -135,29 +131,12 @@ h1,h2,h3,h4,h5,h6,p{
   margin-left: 50px;
 }
 
-/* -------start address----- */
+/* ---------------------------------------------------start address---------------------------------------------------------------- */
 
-/* 
-.phone::before{
-  content:"";
-  width: 10px;
-  height: 15px;
-  margin-right: 10px;
-  background-image: url(../css/images/icon-phone.svg);
-  background-position: center;
-  background-size: contain;
+.container-address{
+  display: flex;
 }
 
-.mail::before{
-  content:"";
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-image: url(../css/images/icon-mail.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-} */
 
 .address a{
   display: flex;
@@ -221,11 +200,13 @@ align-items: center;
 .address > .link + .link{
   margin-left: 50px;
 }
-/* ------finish address------------- */
+/* -------------------------------------------------------finish address----------------------------------------------------------- */
 
 
-/* main section */
-/* banner */
+/* --------------------------------------------------------main section------------------------------------------------------------ */
+
+
+/* -----------------------------------------------------------banner--------------------------------------------------------------- */
 
 .hero{
   text-align: center;
@@ -275,9 +256,9 @@ align-items: center;
   background:rgba(21,96,240, 0.85);
   color: var(--primary-white-color);
 }
+/* -------------------------------------------------------------------------------------------------------------------------------- */
 
-
-/* section how it work */
+/* ----------------------------------------------section how it work--------------------------------------------------------------- */
 
 .container.it-work{
   padding-top: 94px;
@@ -354,10 +335,12 @@ align-items: center;
 .subtitle{
   margin-bottom: 10px;
 }
-/* --------end section It-work----------- */
+
+/* -------------------------------------------------------end section It-work------------------------------------------------------ */
 
 
-/* Чим ми займаємось */
+/* -------------------------------------------------------Чим ми займаємось-------------------------------------------------------- */
+
 .container.do-work{
   padding-top: 94px ;
   padding-bottom: 94px;
@@ -385,7 +368,7 @@ align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);;
-  }
+}
 
 .do-work .we-work{
   display: flex;
@@ -403,9 +386,10 @@ align-items: center;
 .we-work .list:last-child{
   margin-right: 0px;
 }
-/* -------------------------------- */
 
-/* ------our-teams------- */
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------our-teams---------------------------------------------------------------- */
 .container-teams{
   padding-top: 94px;
   padding-bottom: 94px;
@@ -452,8 +436,7 @@ align-items: center;
   background-color: var(--primary-white-color);
   border-bottom-right-radius:4px ;
   border-bottom-left-radius: 4px;
-  
-}
+  }
 
 .teams > .iteam:last-child{
   margin-right: 0px;
@@ -496,7 +479,8 @@ align-items: center;
 fill:var(--primary-white-color);
 }
 
-/* постійні клієнти */
+/* ------------------------------------------------------постійні клієнти---------------------------------------------------------- */
+
 .container.custumers{
   font-family: var(--font-text);
   font-style: normal;
@@ -552,16 +536,13 @@ fill:var(--primary-white-color);
   margin-right: 0;
 }
 
-/* -------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------- */
 
 
 
 
-
-
-/* start portfolio.html */
-/* -----two section portfolio   */
-/* page-portfolio */
+/* -------------------------------------------------two section portfolio----------------------------------------------------------*/
+/* -----------------------------------------------------page-portfolio------------------------------------------------------------ */
 
 .off{
   display: none;
@@ -609,7 +590,7 @@ fill:var(--primary-white-color);
 }
 
 
-/* ----------portfolio------------- */
+/* ----------------------------------------------------portfolio------------------------------------------------------------------- */
 
 .container.portfolio{
   font-family: Roboto;
@@ -688,9 +669,7 @@ fill:var(--primary-white-color);
  } */
 
 
-
-
-/* footer */
+/* -------------------------------------------------------footer -------------------------------------------------------------------*/
 
 .footer-flex{
   display:flex;
@@ -743,9 +722,9 @@ fill:var(--primary-white-color);
 .address-footer a:focus {
  color:var(--accent-color);
 }
-/* ----------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------- */
 
-/* Join */
+/*-------------------------------------------------------- Join-------------------------------------------------------------------- */
 .join{
   margin-bottom: 20px;
   font-family: Roboto;
@@ -763,7 +742,6 @@ fill:var(--primary-white-color);
   display: flex;
 }
 
-
 .footer-links a{
   display: inline-flex;
   justify-content: center;
@@ -772,7 +750,6 @@ fill:var(--primary-white-color);
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-
 }
 
 .footer-links a:hover,
@@ -798,49 +775,26 @@ fill:var(--primary-white-color);
   margin-right: 0;
 }
 
-/* 
-.icon-footer.instagram{
-background-image: url(../css/images/icon-instagram.svg);
-} */
+/* ------------------------------------------------------------------------------------------------------------------------------- */
 
-/* .icon-footer.twitter{
-  background-image: url(../css/images/icon-twiter.svg);
-}
-
-.icon-footer.facebook{
- background-image: url(../css/images/icon-facebook.svg); 
-}
-
-.icon-footer.linkedin{
-  background-image: url(../css/images/icon-linkedin.svg);
-  
-} */
-
-
-
-/* end */
-
+/* ----------------------------------------------------------end------------------------------------------------------------------ */
 .copyright {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  
-  padding-top:  18px;
-  padding-bottom: 21px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-
-
   font-family: var(--font-text);
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
-  text-align: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
-  
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top:  18px;
+  padding-bottom: 21px;
 }
-/* ---------------------end index.html */
+/* -----------------------------------------------------end index.html----------------------------------------------------------- */
 
 
 
