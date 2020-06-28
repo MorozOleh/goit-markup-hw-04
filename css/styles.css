@@ -399,6 +399,18 @@ align-items: center;
   margin-bottom: 50px;
 }
 
+.name-work{
+  padding: 27px 82px;
+  background: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);;
+  }
+
 .do-work .we-work{
   display: flex;
 }
@@ -415,77 +427,60 @@ align-items: center;
 .we-work .list:last-child{
   margin-right: 0px;
 }
-
-.name-work{
-  padding: 27px 82px;
-  background: rgba(47, 48, 58, 0.8);
-  text-align: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);;
-  }
 /* -------------------------------- */
 
-
-
-
 /* ------our-teams------- */
-
-
-
 .container-teams{
   padding-top: 94px;
   padding-bottom: 94px;
+  font-family: var(--font-text);
+  font-style: normal;
+  letter-spacing: 0.03em; 
   background: #F5F4FA;
+}
+
+.container-teams > .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-text-color);
+  margin-bottom: 50px;
+}
+
+.worker {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+  text-align: center;
+  padding-top: 30px;
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: 10px;
 }
 
 .container-teams .teams{
   display: flex;
 }
 
-.about-card{
+.teams > .list{
+  margin-right: 30px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   background-color: var(--primary-white-color);
   border-bottom-right-radius:4px ;
   border-bottom-left-radius: 4px;
-}
-
-.container-teams > .title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em; 
-  color: var(--primary-text-color);
-  margin-bottom: 50px;
-}
-
-.teams > .iteam{
-  margin-right: 30px;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  
 }
 
 .teams > .iteam:last-child{
   margin-right: 0px;
-}
-
-.worker {
-  padding-top: 30px;
-  font-weight: 500;
-  font-size: 16px;
-  color: var(--primary-text-color);
-  text-align: center;
-}
-
-.profession {
-  margin-top: 10px;
-  font-weight: 400;
-  color: var(--secondary-color);
-  text-align: center;
 }
 
 .teams .social{
@@ -496,7 +491,6 @@ align-items: center;
   margin-right: 32px;
   margin-left: 32px;
 }
-
 
 .social a{
   display: flex;
@@ -519,48 +513,12 @@ align-items: center;
 .social a:hover,
 .social a:focus{
   background-color: var(--accent-color);
-  }
+}
 
 .social a:hover svg,
 .social a:focus svg{
 fill:var(--primary-white-color);
 }
-
-/* .icon{
-  display: block;
-  width: 44px;
-  height: 44px;
-  content: "";
-  background-repeat: no-repeat;
-  
-  background-position: 50% 50%;
-
-}
-
-.icon.instagram{
-  background-image: url(../css/images/icon-instagram.svg);
-}
-
-.icon.twitter{
-  background-image: url(../css/images/icon-twiter.svg);
-}
-
-.icon.facebook{
-background-image: url(../css/images/icon-facebook.svg);
-}
-
-.icon.linkedin{
-  background-image: url(../css/images/icon-linkedin.svg);
-}
-
-.icons:hover,
-.icons:focus{
-  color: var(--accent-color)
-} */
-
-
-/* -------------End - Teams ------- */
-
 
 /* постійні клієнти */
 
