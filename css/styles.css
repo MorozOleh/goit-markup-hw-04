@@ -113,12 +113,45 @@ h1,h2,h3,h4,h5,h6,p{
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  position: relative;
+
  }
+
+
+.site-nav .link.current::after{
+  content:"";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  border:2px solid var(--accent-color); 
+  border-radius: 2px;
+  
+}
+
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color:var(--accent-color);
 }
+
+
+.site-nav .link:hover::after{
+  content:"";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border:2px solid var(--accent-color); 
+  border-radius: 2px;
+
+  
+}
+
+
 
 /* -------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -130,6 +163,9 @@ h1,h2,h3,h4,h5,h6,p{
 .site-nav .flex-link + .flex-link{
   margin-left: 50px;
 }
+
+
+
 
 /* ---------------------------------------------------start address---------------------------------------------------------------- */
 
@@ -795,7 +831,6 @@ fill:var(--primary-white-color);
   padding-bottom: 21px;
 }
 /* -----------------------------------------------------end index.html----------------------------------------------------------- */
-
 
 
 
